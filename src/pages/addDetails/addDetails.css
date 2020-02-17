@@ -1,0 +1,21 @@
+.add-details-page{
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+     
+}
+
+.add-details-page .title{
+    margin:20px 0;
+}
+
+.add-details-page .form-container{
+    width: 40vw;
+    height: 80vh;
+    
+}

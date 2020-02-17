@@ -1,0 +1,107 @@
+.add-product-form{
+    width:100%;
+    height:100%;
+
+     
+
+     
+}
+
+.add-product-form .form-element{
+    width: 100%;
+    height: 80px;
+     
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.add-product-form .form-element .label-div{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.label-div label{
+    font-size: 1.8rem;
+}
+
+.input-div input{
+    width:100%;
+    height: 60%;
+}
+
+.add-product-form .form-element .input-div{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   
+}
+
+.description-element {
+    width: 100%;
+    height: 150px;
+     
+}
+
+.description-element h4{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.description-element .body{
+    width: 100%;
+    height: 300px;
+    overflow-y: scroll;
+    background:#ddd;
+}
+
+.description-element .body .form-element{
+    width: 100%;
+    height: 80px;
+     
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.description-element .body .form-element .label-div{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.description-element .body .form-element .input-div{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.description-element .body .form-element .label-div label{
+    font-size: 1.8rem;
+}
+
+.description-element .body .form-element .input-div input{
+    width:100%;
+    height: 60%;
+}
+
+.description-element .add-more-btn{
+    padding: 5px 10px;
+     width: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #4a5b8f;
+    color: #fff;
+}
